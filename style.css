@@ -1,0 +1,38 @@
+body{
+    background-image: url(./purple-peach-pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(59, 15, 70);
+}
+
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+.main{
+   width: 100%;
+    
+}
+.main-child{
+  display: flex;
+ flex-wrap: wrap; 
+}
+
+.childs{
+    width:250px ;
+    margin: 30px;
+    text-align: center;
+    border:1px dotted darkmagenta ;
+}
+.childs p h2{
+  color: black;
+}
